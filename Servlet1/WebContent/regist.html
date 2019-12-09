@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>注册页面</title>
+ <style type="text/css"> 
+	.zhizhao{
+		left:30%;
+		position: absolute;
+		height: 400px;
+		width: 500px;
+		top: 120px;
+		margin: 0 auto;
+		z-index: 99999;
+		background:#ffffff;
+		border: 7px solid #ccc;
+	}
+	.kuangju{
+		position: absolute;
+		left:25%;
+		top:5%;
+		
+	}
+</style>
+</head>
+<body style="background-color: #87CEFA;";:green;font-size:40px;">
+<div class="zhizhao">
+  <form action="FormServlet" method="post">
+   <div class="kuangju">
+  <div class="zhidao">
+  		<table>
+  		 	<tr>
+  		 		<td>用户名</td>
+  		 		<td><input type="text" name="username" /></td>
+  		 	</tr>
+  		 	<tr>
+  		 		<td>密码</td>
+  		 		<td><input type="password" name="password" /></td>
+  		 	</tr>
+  		 	<tr>
+  		 		<td>确认密码</td>
+  		 		<td><input type="password" name="rePassword" /></td>
+  		 	</tr>
+  		 	<tr>
+  		 		<td>性别</td>
+  		 		<td>男<input type="radio" name="sex"  value="男"/>女<input type="radio"
+  		 		name="sex" value="女">
+  		 	    </td>
+  		 	</tr>
+  		 	<tr>
+  		 		<td>兴趣爱好</td>
+  		 		<td><input type="checkbox" name="hobbies" value="游戏"/>游戏<input 
+  		 		type="checkbox" name="hobbies" value="羽毛球">羽毛球<input
+  		 		type="checkbox" name="hobbies" value="篮球">篮球</td>
+  		 	</tr>
+  		 	<tr>
+  		 		<td>个人描述</td>
+  		 		<td><textarea name="info" rows="10" cols="10" ></textarea></td>
+  		 	</tr>
+  		 	<tr>
+  		 		<td colspan="2"><input type="submit" value="提交"/></td>
+  		 	</tr>
+  		 	</div>
+  </div>
+</body>
+</html>
