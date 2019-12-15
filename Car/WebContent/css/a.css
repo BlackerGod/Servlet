@@ -1,0 +1,100 @@
+body,input{
+			margin: 0;
+			padding: 0;
+			background: lightblue;
+		}
+		input{
+			display: inline-block;
+			background: #fff;
+		}
+		.zhidao{
+			width: 100%;
+		}
+		.register{
+			position: relative;
+			height: 400px;
+			width: 500px;
+			top: 120px;
+			margin: 0 auto;
+			z-index: 99999;
+			background:#ffffff;
+			border: 7px solid #ccc;
+		}
+		.title{
+			position: absolute;
+			width: 300px;
+			height: 50px;
+			margin-left: 110px;
+			margin-top: 10px;
+			text-align: center;
+			font-size: 28px;
+			font-weight: 800;
+			color: #ff5000;
+			line-height: 50px;
+		}
+		.username1{
+			position: absolute;
+			width: 420px;
+			height: 40px;
+			line-height: 40px;
+			margin-top:100px;
+			margin-left:40px;
+			font-weight: 700;
+		}
+		.username-input{
+			display: inline-block;
+			margin-left: 45px;
+		}
+		#username{
+			height: 35px;
+			width: 290px;
+			border: 2px solid #ccc;
+			border-radius: 5px;
+		}
+		.xiao-userPassword-box{
+			position: absolute;
+			width: 420px;
+			height: 40px;
+			line-height: 40px;
+			margin-top:180px;
+			margin-left:40px;
+			font-weight: 700;
+		}
+		.xiao-userPassword-input{
+			display: inline-block;
+			margin-left: 61px;
+		}
+		#userPassword{
+			height: 35px;
+			width: 290px;
+			border: 2px solid #ccc;
+			border-radius: 5px;
+		}
+		.require{
+			color: red;
+		}
+		.xiao-submit-box{
+			position:absolute;
+			width: 80px;
+			height: 40px;
+			line-height: 40px;
+			margin-top: 290px;
+			margin-left:210px;
+			border-radius: 5px;
+			background: grey;
+		}
+		#xiao-submit-button{
+			display: inline-block;
+			width: 80px;
+			height: 40px;
+			border-radius: 5px;
+			background: red;
+		}
+		.xiao-goLogin-box{
+			position:absolute;
+			width: 150px;
+			height: 20px;
+			margin-top: 330px;
+			margin-left:320px;
+		
+		}

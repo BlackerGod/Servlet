@@ -1,0 +1,40 @@
+.sc{
+			position:absolute;
+			top: 40%;
+			left: 10%;
+
+		}
+.picture{
+			position: absolute;
+			float: left;
+			
+		}
+.word{
+			position: relative;
+            width: 200px;			
+			left: 120%;
+            margin-top: 70px;
+
+		}
+a{			text-decoration: none;
+			
+		}
+		
+.shu{
+	position:absolute;
+	top: 30%;
+	left: 30%;
+	
+}
+.picture1{
+			position: absolute;
+			float: left;
+			
+		}
+.word1{
+			position: relative;			
+			left: 90%;
+            margin-top: 70px;
+          font-size: xx-large;
+		  list-style: none;
+		}
